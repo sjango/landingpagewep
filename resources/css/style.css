@@ -1,0 +1,188 @@
+html {
+	font-size: 14px;
+	font-family: 'Libre Franklin';
+	color: #162625;	
+}
+
+/* common elements styling */
+
+h1 {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.15rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+/* header */
+header {
+	display: flex;
+	flex-direction: column;
+	height: 11rem;
+	padding: 0 1.5rem;
+	border-top: 1.5rem solid #505759;
+}
+
+header h1 {
+	padding: 2rem 1.5rem 0 1.5rem;
+}
+
+header h2 {
+	font-size: 1.5rem;
+	padding: 0.8rem 1.5rem 0 1.5rem; 
+}
+
+#nav-container {
+	display: flex;
+}
+
+nav {
+	padding: 0 3rem;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* content containers */
+
+.container {
+width: 980px;
+margin-left: calc((100% - 980px) / 2);
+}
+
+  .main-content {
+ 	background-color: #EAE5E5;
+ }
+
+#main-content-container {
+	display: flex;
+}
+
+ .left-container {
+ 	width: 35%;
+ 	 padding: 2rem 1.5rem;
+ }
+
+.right-container {
+	width: calc(65% - 3rem);
+	display: flex;
+	flex-direction: column;		
+	padding: 2rem 0 2rem 0;
+}
+
+/* head-shot */
+
+#pic-container {
+	padding-top: 4rem;
+}
+
+#pic-container img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* text */
+
+#main-bottom p {
+padding-bottom: 1rem;
+}
+
+#slotzin {
+}
+
+/* footer */
+
+footer {
+	background-color: #62929E;
+	height: 65px;
+	display: flex;
+	flex-direction: column;
+}
+
+footer .container {
+	display: flex;
+flex-direction: column;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-around;
+	height: 70%;
+}
+
+.footer-section {
+	display: flex;
+}
+
+#footer-left .img-wrapper {
+	padding-right: 0.4rem;
+	height: 51px;
+	width: 24px;
+	position: relative;
+}
+
+#footer-middle .img-wrapper {
+	padding-right: 0.4rem;
+	height: 51px;
+	width: 24px;
+	position: relative;
+}
+
+#footer-left img {
+	 max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+#footer-middle img {
+ max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.footer-item {
+	padding-left: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-item span {
+	line-height: 51px;
+}
+
+.footer-bottom {
+	display: flex;
+justify-content: space-between;
+
+}
