@@ -8,7 +8,7 @@ html {
 
 h1 {
 	font-size: 3rem;
-	font-weight: 800;
+	font-weight: 600;
 }
 
 h2 {
@@ -50,7 +50,7 @@ header h2 {
 }
 
 nav {
-	padding: 0 3rem;
+	padding: 0 1.5rem;
 }
 
 nav ul {
@@ -62,8 +62,17 @@ nav ul {
 /* content containers */
 
 .container {
-max-width: 980px;
-margin-left: calc((100% - 980px) / 2);
+width: 980px;
+margin: 0 auto;
+justify-content: space-between;
+}
+
+@media only screen and (max-width: 689px) {
+	.container {
+		min-width: 100%;
+		width: auto;
+	}
+
 }
 
   .main-content {
@@ -80,22 +89,23 @@ margin-left: calc((100% - 980px) / 2);
  }
 
 .right-container {
-	width: calc(65% - 3rem);
+	width: calc(65% - 6rem);
 	display: flex;
 	flex-direction: column;		
-	padding: 2rem 0 2rem 0;
+	padding: 2rem 1.5rem;
 }
 
 /* head-shot */
 
 #pic-container {
 	padding-top: 4rem;
+	max-width: 228px;
 }
 
 #pic-container img {
+	width: 100%;
+	height: auto;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* text */
