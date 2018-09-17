@@ -67,10 +67,9 @@ margin: 0 auto;
 justify-content: space-between;
 }
 
-@media only screen and (max-width: 689px) {
+@media only screen and (max-width: 980px) {
 	.container {
-		min-width: 100%;
-		width: auto;
+		width: 100%;
 	}
 
 }
@@ -112,9 +111,11 @@ justify-content: space-between;
 
 #main-bottom p {
 padding-bottom: 1rem;
+
 }
 
-#slotzin {
+#main-bottom p {
+	width: 100%;
 }
 
 /* footer */
@@ -195,4 +196,8 @@ flex-direction: column;
 	display: flex;
 justify-content: space-between;
 
+}
+
+#copyright {
+	font-size: 0.8rem;
 }
