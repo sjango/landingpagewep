@@ -6,6 +6,16 @@ html {
 
 /* common elements styling */
 
+/* switch off responsive elements */
+
+.tablet {
+	display: none;
+}
+
+.handheld {
+	display: none;
+}
+
 h1 {
 	font-size: 3rem;
 	font-weight: 600;
@@ -67,12 +77,6 @@ margin: 0 auto;
 justify-content: space-between;
 }
 
-@media only screen and (max-width: 980px) {
-	.container {
-		width: 100%;
-	}
-
-}
 
   .main-content {
  	background-color: #EAE5E5;
@@ -200,4 +204,89 @@ justify-content: space-between;
 
 #copyright {
 	font-size: 0.8rem;
+}
+
+/* responsive styles */
+
+/* browser resizing */
+
+@media only screen and (max-width: 980px) {
+	.container {
+		width: 100%;
+	}
+
+}
+
+/* tablet */
+
+@media only screen and (max-width: 768px) {
+	.tablet {
+		display: initial;
+	}
+
+	#pic-container {
+		padding-top: 0;
+		padding-bottom: 4rem;
+	}
+
+
+
+	.footer-section {
+		display: none;
+	}
+
+	footer {
+		height: 100%;
+	}
+
+}
+
+/* handheld */
+
+@media only screen and (max-width: 542px) {
+	.handheld {
+		display: initial;
+	}
+
+	header h1 {
+		text-align: center;
+	}
+
+	header h2 {
+		display: none;
+	}
+
+
+	header .left-container {
+		display: none;
+	}
+
+
+	.tablet h3 {
+		padding-bottom: 1rem;
+	}
+
+	.left-container {
+		width: calc(100% - 2rem);
+		padding: 1rem;
+	}
+
+	.right-container {
+		padding: 1rem;
+		width: calc(100% - 2rem);
+	}
+
+	#main-content-container {
+		flex-direction: column;
+	}
+
+	#main-content-container .left-container {
+		display: inline-flex;
+		justify-content: space-between;
+	}
+
+	#pic-container {
+		padding-right: 2rem;
+	}
+
 }

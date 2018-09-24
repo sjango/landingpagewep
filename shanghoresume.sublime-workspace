@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"in",
+				"initial\tdisplay"
+			],
+			[
+				"h",
+				"handheld"
+			],
+			[
+				"contact",
+				"contact-item"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
 				"s",
 				"size\tproperty"
 			],
@@ -32,24 +60,12 @@
 				"max-height"
 			],
 			[
-				"p",
-				"padding-bottom\tproperty"
-			],
-			[
 				"al",
 				"align-content\tproperty"
 			],
 			[
 				"t",
 				"text-align\tproperty"
-			],
-			[
-				"padd",
-				"padding-left\tproperty"
-			],
-			[
-				"pa",
-				"padding-right\tproperty"
 			],
 			[
 				"im",
@@ -84,10 +100,6 @@
 				"align-items\tproperty"
 			],
 			[
-				"in",
-				"inline-flex\tdisplay"
-			],
-			[
 				"d",
 				"display\tproperty"
 			],
@@ -102,10 +114,6 @@
 			[
 				"r",
 				"resources"
-			],
-			[
-				"h",
-				"h4\tTag"
 			],
 			[
 				"foot",
@@ -266,10 +274,6 @@
 			[
 				"right",
 				"right-item"
-			],
-			[
-				"te",
-				"text-transform"
 			],
 			[
 				"border-r",
@@ -443,7 +447,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3675,
+				"buffer_size": 4256,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -452,7 +456,7 @@
 			"file": "resources/css/style.css",
 			"settings":
 			{
-				"buffer_size": 2549,
+				"buffer_size": 3537,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -566,15 +570,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3675,
+						"buffer_size": 4256,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3576,
-								3576
+								1962,
+								1962
 							]
 						],
 						"settings":
@@ -583,7 +587,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 571.0,
+						"translation.y": 218.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -595,23 +599,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2549,
+						"buffer_size": 3537,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2542,
-								2542
+								3182,
+								3182
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2266.0,
+						"translation.y": 3526.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
